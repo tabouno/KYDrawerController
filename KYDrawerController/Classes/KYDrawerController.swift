@@ -140,7 +140,7 @@ open class KYDrawerController: UIViewController, UIGestureRecognizerDelegate {
         }
     }
 
-    public var mainViewController: UIViewController! {
+    @objc public var mainViewController: UIViewController! {
         didSet {
             let isVisible = (drawerState == .closed)
             
@@ -192,7 +192,7 @@ open class KYDrawerController: UIViewController, UIGestureRecognizerDelegate {
         }
     }
     
-    public var drawerViewController : UIViewController? {
+    @objc public var drawerViewController : UIViewController? {
         didSet {
             let isVisible = (drawerState == .opened)
             
