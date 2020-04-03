@@ -23,7 +23,7 @@
 Add the following to your `Podfile`:
 
 ```ruby
-pod 'KYDrawerController'
+pod 'KYDrawerController', :git => 'https://github.com/tabouno/KYDrawerController.git', :branch => 'master'
 ```
 
 ### Manually
